@@ -25,3 +25,5 @@ signal.signal(signal.SIGTERM, lambda signo, frame: shutdown_handler())
 
 __version__ = '0.1.0'
 __all__ = ['KaleidoscopeCore', 'QuantumSimulator', 'FileType']
+from .core import KaleidoscopeCore
+from .types import FileType
